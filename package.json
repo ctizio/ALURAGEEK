@@ -1,13 +1,14 @@
 {
-  "dependencies": {
-    "json-server": "^0.17.3"
-  },
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "Alura geek e-commerce project for Oracle/Alura latam program",
+  "main": "index.html",
   "scripts": {
-    "server": "json-server --watch db.json"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ctizio/ALURAGEEK.git"
+    "url": "git+https://github.com/ctizio/alura-geek.git"
   },
   "keywords": [
     "ecommerce",
@@ -15,9 +16,13 @@
     "alura",
     "latam"
   ],
-  "author": "Cristina Tizio",
+  "author": "SofiDev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ctizio/ALURAGEEK/issues"
+    "url": "https://github.com/ctizio/alura-geek/issues"
+  },
+ 
+  "dependencies": {
+    "bootstrap-icons": "^1.10.5"
   }
 }
