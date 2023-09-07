@@ -4,5 +4,20 @@
   },
   "scripts": {
     "server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctizio/ALURAGEEK.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "CRUD",
+    "alura",
+    "latam"
+  ],
+  "author": "Cristina Tizio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ctizio/ALURAGEEK/issues"
   }
 }
