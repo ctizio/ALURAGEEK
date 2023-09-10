@@ -1,7 +1,7 @@
 
-const listaProductos = () => fetch("https://apitestprueba-pyip.onrender.com/productos").then(repuesta => repuesta.json());
+const listaProductos = () => fetch("https://alurageek-dd71.onrender.com/productos").then(repuesta => repuesta.json());
 const crearProducto = (nombre, categoria, precio, imagen, descripcion)=>{
-    return fetch("https://apitestprueba-pyip.onrender.com/productos",{
+    return fetch("https://alurageek-dd71.onrender.com/productos",{
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -11,19 +11,19 @@ const crearProducto = (nombre, categoria, precio, imagen, descripcion)=>{
 };
 
 const eliminarProducto =(id)=>{
-    return fetch(`https://apitestprueba-pyip.onrender.com/productos/${id}`,{
+    return fetch(`https://alurageek-dd71.onrender.com/productos/${id}`,{
         method: "DELETE",
     });
 };
 
 const detalleProducto = (id)=>{
-    return fetch(`https://apitestprueba-pyip.onrender.com/productos/${id}`)
+    return fetch(`https://alurageek-dd71.onrender.com/productos/${id}`)
     .then((repuesta)=> repuesta.json()
     );
 };
 
 const actualizarProducto= (nombre,categoria,precio,imagen,descripcion, id)=>{
-    return fetch(`https://apitestprueba-pyip.onrender.com/productos/${id}`, {
+    return fetch(`https://alurageek-dd71.onrender.com/productos/${id}`, {
         method: "PUT",
         headers:{
             "Content-Type": "application/json"
