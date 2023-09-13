@@ -20,7 +20,8 @@
 
 @media (max-width: 378px) {
     .producto__barra__lista {
-        width: 95vw;
+         width: 95vw; 
+        
         padding: 0.5rem;
     }
 
