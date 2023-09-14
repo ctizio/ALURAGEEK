@@ -31,7 +31,7 @@ const cargarProductos = () => {
       const seccionConsolas = document.querySelector("[data-producto-consolas]");
       cargarProductosPorCategoria(productos, "Consolas", seccionConsolas);
     })
-    .catch((error) => alert("ocurrió un error"));
+    .catch((error) => alert("Espere a la descarga de las imágenes...puede tardar unos segundos o vuelva a refrescar la pantalla"));
 };
 
 // Llamada para cargar solo la sección de "Consolas"

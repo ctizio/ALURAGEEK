@@ -27,5 +27,5 @@ clientetServices
         card.appendChild(nuevaLinea);
     }); 
 })
-.catch((error)=> alert("ocurrio un error"));
+.catch((error)=> alert("Espere a la descarga de las imágenes...puede tardar unos segundos o vuelva a refrescar la pantalla"));
 
